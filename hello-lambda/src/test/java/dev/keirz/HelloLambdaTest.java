@@ -10,6 +10,6 @@ class HelloLambdaTest {
     @Test
     void shouldReturnHelloMessage(){
         var sut = new HelloLambda();
-        Assertions.assertEquals("Hello, AWS Lambda!", sut.handleRequest());
+        Assertions.assertEquals("Hello, Keir!", sut.handleRequest("Keir"));
     }
 }
